@@ -2201,7 +2201,7 @@ ul.extra-skills li i {
     padding-top: 100px;
 }
 .client-logo-wrap .client-logo-item {
-	width: calc(20% - 60px);
+	width: calc(26% - 72px);
 	margin: 0 30px 70px;
 }
 .client-logo-wrap {
@@ -3340,3 +3340,20 @@ ul.blog_pagination li a:hover {
     margin-bottom: 6px;
     list-style: disc;
 }
+
+
+    .libutton {
+       display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 7px;
+    text-align: center;
+    outline: none;
+    text-decoration: none !important;
+    color: #000 !important;
+    width: 173px;
+    height: 44px;
+    border-radius: 12px;
+    border: 1px solid black;
+    margin-left: 15px;
+ }
