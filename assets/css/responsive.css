@@ -17,16 +17,20 @@ Version      : 1.0
     .section-title p {
         padding: 0px 100px;
     }
+
     .about-image-part h2 {
-    font-size: 30px;
-}
-.about-social ul li {
-    display: inline-block;
-    margin: 15px 2px 15px 2px;
-}
-.call-to-action-part {
-    padding: 60px 60px;
-}
+        font-size: 30px;
+    }
+
+    .about-social ul li {
+        display: inline-block;
+        margin: 15px 2px 15px 2px;
+    }
+
+    .call-to-action-part {
+        padding: 60px 60px;
+    }
+
 }
 
 
@@ -58,9 +62,11 @@ Version      : 1.0
     .resume-area {
         padding-top: 50px;
     }
-.single-resume {
-margin-bottom:30px;
-}
+
+    .single-resume {
+        margin-bottom: 30px;
+    }
+
     .skill-area {
         padding-top: 50px;
     }
@@ -165,16 +171,30 @@ margin-bottom:30px;
     .extra-copyright p {
         text-align: center;
     }
-.blog-post-box .blog-post-img {margin-bottom: 30px;}
+
+    .blog-post-box .blog-post-img {
+        margin-bottom: 30px;
+    }
 }
 
 
 /* Mobile Layout: 320px. */
 
 @media only screen and (max-width: 767px) {
-    .resume-item{
+    .about-social ul li {
+        display: inline-block;
+        margin: 14px 15px;
+    }
+
+    .skill-item .percent {
+
+        font-size: 15px;
+    }
+
+    .resume-item {
         display: table-row;
     }
+
     .resume-item .icon {
         margin-bottom: 15px;
     }
@@ -324,7 +344,7 @@ margin-bottom:30px;
     .hero-counter-area .counter-title {
         font-size: 14px;
     }
-	
+
 
 }
 
@@ -480,7 +500,11 @@ margin-bottom:30px;
     .list-style-one.two-column li {
         width: 100%;
     }
-	.map_title, .close_btn {font-size: 40px;}
+
+    .map_title,
+    .close_btn {
+        font-size: 40px;
+    }
 }
 
 
@@ -1123,16 +1147,20 @@ margin-bottom:30px;
     .project-content h2 {
         font-size: 35px;
     }
-    .testimonial-item{
+
+    .testimonial-item {
         height: auto;
     }
-    .project-item.style-two{
+
+    .project-item.style-two {
         height: auto;
     }
-    .single-contact p a{
+
+    .single-contact p a {
         font-size: 14px;
     }
-    .contact-form-area{
+
+    .contact-form-area {
         padding: 23px;
     }
 
@@ -1248,7 +1276,7 @@ margin-bottom:30px;
 
 @media only screen and (max-width: 767px) {
     .client-logo-wrap .client-logo-item {
-        width: calc(33.33% - 60px);
+        width: calc(46.33% - 60px);
     }
 }
 
